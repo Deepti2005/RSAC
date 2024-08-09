@@ -1,0 +1,62 @@
+/* src/components/ResearchEdge.css */
+
+/* Card Image Overlay */
+.card-img-overlay {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)); /* Gradient background */
+  padding: 1rem; /* Add padding for better spacing */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Subtle shadow effect */
+  transition: background 0.3s ease, transform 0.3s ease; /* Smooth transition */
+
+}
+
+.card-img-overlay:hover {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)); /* Darker on hover */
+  transform: translateY(-5px); /* Slight lift on hover */
+}
+
+/* Card Title */
+.card-title {
+  font-size: 1.5rem; /* Increase font size */
+  font-weight: bold;
+  color: #68eb73; /* Custom color */
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); Text shadow for depth */
+  margin-bottom: 0.5rem; /* Space below the title */
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+.card-title:hover {
+  color: #23ff0f; /* Lighter color on hover */
+}
+
+/* Card Text */
+.card-text {
+  font-size: 1.1rem; /* Slightly larger font size */
+  line-height: 1.6; /* Better line spacing */
+  color: #050404; /* White color */
+  text-shadow: 1px 1px 3px rgba(19, 7, 7, 0.5); /* Text shadow for better readability */
+  margin-bottom: 1rem; /* Space below the text */
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+.card-text:hover {
+  color: #050101; /* Lighter color on hover */
+}
+
+/* Display Heading */
+h1.display-4 {
+  font-size: 2.5rem; /* Larger font size */
+  font-weight: bold;
+  color: #080606; /* Custom color */
+  text-align: center; /* Center alignment */
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
+  margin-bottom: 1rem; /* Space below the heading */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+h1.display-4:hover {
+  color: #0a0402; /* Lighter color on hover */
+  transform: scale(1.05); /* Slight scale up on hover */
+}
+
+  

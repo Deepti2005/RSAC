@@ -1,0 +1,71 @@
+
+/* src/components/IIMAHappenings.css */
+
+/* Card Body Heading */
+.title{
+  color:#69f826;
+}
+
+.card-body h5 {
+  font-size: 1.5rem; /* Increase font size */
+  font-weight: bold;
+  color: rgb(130, 226, 66); /* Custom color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
+  margin-bottom: 0.5rem; /* Space below the heading */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.card-body h5:hover {
+  color: #69f826; /* Lighter color on hover */
+  transform: scale(1.1); /* Slight scale up on hover */
+}
+
+/* List Group Item Heading */
+.list-group-item h6 {
+  font-size: 1.2rem; /* Increase font size */
+  font-weight: bold;
+  color: #007bff; /* Custom color */
+  margin-bottom: 0.5rem; /* Space below the heading */
+  transition: color 0.3s ease, text-shadow 0.3s ease; /* Smooth transition */
+}
+
+.list-group-item h6:hover {
+  color: #0056b3; /* Darker color on hover */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Text shadow on hover */
+}
+
+/* Stretched Link */
+.stretched-link::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.stretched-link:hover::after {
+  background-color: rgba(92, 2, 2, 0.2); /* Light overlay on hover */
+}
+
+/* Advanced Typography */
+body {
+  font-family: 'Roboto', sans-serif; /* Modern font */
+}
+
+.card-body, .list-group-item {
+  border-radius: 5px; /* Rounded corners */
+  overflow: hidden; /* Ensure rounded corners on content */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+  transition: box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.name{
+  padding:2%;
+}
+
+.card-body:hover, .list-group-item:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Enhanced shadow effect on hover */
+}
